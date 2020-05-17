@@ -1,0 +1,83 @@
+{% extends "main/header-footer.html" %}
+{% block content %}
+{% load static %}
+
+
+<div class="section-top-border">
+      <div class="row">
+          <div class="container">
+              <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="pet_thumb">
+                            <img src="{% static 'img/about/register.png' %}" alt="">
+                        </div>
+                    </div>
+
+                  <br>
+                    <div class="col-lg-6 offset-lg-1 col-md-6">
+                        <div class="single-element-widget">
+                            <div class="section_title">
+						<h3 class="mb-30">Register</h3>
+						<form method="POST">
+                            {% csrf_token %}
+							<div class="mt-10">
+                                        {{form.username.label}}
+                                        {{form.username}}
+							</div>
+							<div class="mt-10">
+                                        {{form.first_name.label}}
+                                        {{form.first_name}}
+							</div>
+							<div class="mt-10">
+                                        {{form.last_name.label}}
+                                        {{form.last_name}}
+							</div>
+							<div class="mt-10">
+                                        {{form.country.label}}
+                                        {{form.country}}
+							</div>
+							<div class="mt-10">
+                                        {{form.city.label}}
+                                        {{form.city}}
+							</div>
+							<div class="mt-10">
+                                        {{form.email.label}}
+                                        {{form.email}}
+							</div>
+							<div class="mt-10">
+                                        {{form.certificate.label}}
+                                        {{form.certificate}}
+							</div>
+							<div class="mt-10">
+                                        {{form.expiring.label}}
+                                        {{form.expiring}}
+							</div>
+                            <div class="mt-10">
+                                        {{form.image.label}}
+                                        {{form.image}}
+							</div>
+							<div class="mt-10">
+                                        {{form.password1.label}}
+                                        {{form.password1}}
+							</div>
+							<div class="mt-10">
+                                        {{form.password2.label}}
+                                        {{form.password2}}
+							</div>
+                                    <button class="genric-btn danger" type="submit">Register</button>
+                        </form>
+
+                               {% for message in messages %}
+                                <span>{{message}}</span>
+                               {% endfor %}
+
+								<p>if you already have an account<a href="/login" class="genric-btn danger">Login</a> instead</p>
+					</div> <!-- /.single-about-content -->
+				</div> <!-- /.col -->
+			  </div>
+		  </div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

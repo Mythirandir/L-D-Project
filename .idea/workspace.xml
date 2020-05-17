@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="631711d1-0125-49e1-a235-14128fcca2d0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/main/templates/main/anipat/anipat" />
+  </component>
+  <component name="ProjectId" id="1REpIsiTGUc3QByPaKcz6IhHH2y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abiol\OneDrive\Desktop\landd\dashboard\templates\dashboard" />
+      <recent name="C:\Users\abiol\OneDrive\Desktop\landd\dashboard" />
+      <recent name="C:\Users\abiol\OneDrive\Desktop\landd\events" />
+      <recent name="C:\Users\abiol\OneDrive\Desktop\landd\main\templates\main" />
+      <recent name="C:\Users\abiol\Desktop\landd\main\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abiol\OneDrive\Desktop\landd\main\templates\main" />
+      <recent name="C:\Users\abiol\OneDrive\Desktop\landd\dashboard\templates\dashboard" />
+      <recent name="C:\Users\abiol\OneDrive\Desktop\landd\main\static\video" />
+      <recent name="C:\Users\abiol\OneDrive\Desktop\landd\main\static\images\home" />
+      <recent name="C:\Users\abiol\OneDrive\Desktop\landd\main\static\images\logo" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="631711d1-0125-49e1-a235-14128fcca2d0" name="Default Changelist" comment="" />
+      <created>1569242032750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569242032750</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="26" key="SettingsEditor" timestamp="1587766604278">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1587766604278" />
+    <state x="4" y="177" key="run.anything.popup" timestamp="1589586301188">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="4" y="177" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1589586301188" />
+    <state x="346" y="89" key="search.everywhere.popup" timestamp="1589054227688">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1589054227688" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main/forms.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dashboard/views.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

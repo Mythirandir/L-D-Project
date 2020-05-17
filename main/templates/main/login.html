@@ -1,0 +1,54 @@
+{% extends "main/header-footer.html" %}
+{% block content %}
+{% load static %}
+
+<div class="bradcam_area breadcam_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bradcam_text text-center">
+                        <h3>Sign In</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+  <div class="section-top-border">
+      <div class="row">
+          <div class="container">
+              <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="pet_thumb">
+                            <img src="{% static 'img/about/register.png' %}" alt="">
+                        </div>
+                    </div>
+
+                  <br>
+                    <div class="col-lg-6 offset-lg-1 col-md-6">
+                        <div class="pet_info">
+                            <div class="section_title">
+                                <h3 class="mb-30">Sign In</h3>
+                            <form method="POST">
+                                {% csrf_token %}
+                                <div class="mt-10">
+                                            {{form.as_p}}
+                                <button class="genric-btn danger" type="submit">Sign In</button>
+
+                                </div>
+                            </form>
+
+                                {% for message in messages %}
+                                <span>{{message}}</span>
+                                {% endfor %}
+                                    <p>if you don't have an account <a href="/register" class="genric-btn danger">Register</a> instead</p>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+{% endblock %}
